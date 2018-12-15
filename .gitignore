@@ -59,3 +59,4 @@ target/
 .idea/workspace.xml
 .DS_Store
 dependency-reduced-pom.xml
+*.iml
