@@ -1,0 +1,4 @@
+name: PacketAPI
+version: ${project.version}
+main: me.encast.packetapi.PacketAPI
+authors: [Encast]
