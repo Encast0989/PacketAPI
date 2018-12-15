@@ -58,3 +58,4 @@ target/
 .worksheet
 .idea/workspace.xml
 .DS_Store
+dependency-reduced-pom.xml
