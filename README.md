@@ -1,4 +1,4 @@
-### PacketAPI
+# PacketAPI
 *No longer maintained!* 
 
 A simple Minecraft outbound packet API reducing the need for NMS.
@@ -24,7 +24,7 @@ container.writeObject(index, object);
 ...
 ```
 
-# DefaultObjectMapping
+### DefaultObjectMapping
 As used above, DefaultObjectMapping stores all values required to construct a new instance of a packet.
 
 Example usage:
@@ -35,7 +35,7 @@ mapping.writeObject(0, int.class, 1); // Sets this as the first object in the co
 ...
 ```
 
-# Constructing and Sending
+### Constructing and Sending
 Constructing and sending a PacketContainer takes no time at all, below is an example of sending a packet.
 ```java
 PacketContainer container = new PacketContainer(PacketOutType.TITLE);
